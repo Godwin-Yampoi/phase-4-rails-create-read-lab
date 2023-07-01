@@ -40,3 +40,7 @@ Plant.create!([
 ])
 
 puts '✅ Done seeding!'
+
+Plant.create(name: 'Aloe', image: './images/aloe.jpg', price: 11.50)
+Plant.create(name: 'ZZ Plant', image: './images/zz-plant.jpg', price: 25.98)
+
